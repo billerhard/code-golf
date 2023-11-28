@@ -16,7 +16,7 @@ def smarter_sum(start: int = 1, stop: int = 10):
     """sum algorithm"""
     first = ((start - 1) * start) / 2
     last = (stop * (stop + 1)) / 2
-    return last - first
+    return int(last - first)
 
 
 def table_sum(start: int = 1, stop: int = 10):
