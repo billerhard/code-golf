@@ -41,7 +41,7 @@ def table_sum(start: int = 1, stop: int = 10):
         "100000000": 50000005000000,
         "1000000000": 5000000050000000,
     }
-    if start == 1 and str(stop) in one_to_x.keys():
+    if start == 1 and str(stop) in one_to_x:
         return one_to_x[str(stop)]
     return "dunno"
 
